@@ -3,7 +3,6 @@
     "description": "Additional helpers for Symfony Console",
     "type": "library",
     "require": {
-        "php": ">=7.0",
         "symfony/console": "^3.3"
     },
     "authors": [
