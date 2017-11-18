@@ -8,7 +8,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 
-class ArrayObjectSelector
+class QuestionArrayObjectSelector
 {
     public static function selectObjectFromArrayQuestion(InputInterface $input, OutputInterface $output, $itemList, string $displayPropertyName, string $questionText, $multipleSelect = false){
         if(count($itemList) == 0){
